@@ -1,1 +1,11 @@
-header
+header {
+    height: 100vh;
+    background-image: url(/SASS/Spatial_SCSS/public/assets/img/banner.jpg);
+    filter: contrast(70%);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+
+

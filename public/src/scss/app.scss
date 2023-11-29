@@ -1,5 +1,6 @@
-@import url(./_variables.scss);
+@import "./variables";
 
-@import url(./_fonts.scss);
+@import "./fonts";
 
-@import url(./_body.scss);
+@import "./modules/style"
+

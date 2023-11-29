@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spatial</title>
     <link rel="stylesheet" href="./public/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Montserrat:wght@300;400&family=Seaweed+Script&family=Ubuntu&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/4060e4813a.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
+        <div class="background"></div>
         <nav>
             <div class="nav-div1">
                 <a href="#">
-                    <span>SPATIAL</span> BY TEMPLATED
+                    <span id="spa">SPATIAL</span> <span id="temp">BY TEMPLATED</span>
                 </a>
             </div>
             <div class="nav-div2"> 
@@ -22,79 +26,89 @@
             </div>
         </nav>
         <div class="spatial">
-            <p>
-                SPATIAL
-            </p>
-            <p>
-                LOREM IPSUM DOLOR SIT AMET NULLAM CONSEQUAT <br>
-                INTERDUM VIVAMUS DONCE SED LIBERO.
-            </p>
-            <a href="#">
-                GET STARTED
-            </a>
+            <div class="spatial-in">
+                <p id="space">
+                    SPATIAL
+                </p>
+                <p id="space-p">
+                    LOREM IPSUM DOLOR SIT AMET NULLAM CONSEQUAT <br>
+                    INTERDUM VIVAMUS DONCE SED LIBERO.
+                </p>
+                <a id="start" href="#">
+                    GET STARTED
+                </a>
+            </div>
         </div>
     </header>
     <section class="section1">
-        <div class="section1-title">
-            <p>
-                MAECENAS <br>
-                LUCTUS LECTUS
-            </p>
-            <p>
-                PERSPICIATIS DOLOREMQUE <br>
-                RECUSANDAE DOLOR
-            </p>
-        </div>
-        <div class="section1-p">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non <br>
-                ea mollitia corporis id, distinctio sunt veritatis officiis dolore <br>
-                reprehenderit deleniti voluptatibus harum magna, <br>
-                doloremque alias quisquam minus, eaque. Feugiat quod, <br>
-                nesciunt! Iste quos ipsam, iusto sit esse. <br>
-                <br>
-                Dolorum aspernatur maxime libero ratione quidem distinctio, <br>
-                placeat fugiat laborum voluptatum enim neque soluta vel <br> 
-                sunt id ex veritatis. Labore rerum, odit sapiente, alias mollitia <br>
-                magnam exercitationem modi amet earum quia atque ipsum <br>
-                voluptas asperiores quas laboriosam.
-            </p>
+        <div class="section1-div">
+            <div class="section1-title">
+                <div class="anotherdivtitle">
+                    <p id="sec1-title">
+                        MAECENAS <br>
+                        LUCTUS LECTUS
+                    </p>
+                    <p id="sec1-p">
+                        PERSPICIATIS DOLOREMQUE <br>
+                        RECUSANDAE DOLOR
+                    </p>
+                </div>
+            </div>
+            <div class="section1-p">
+                <p class="sec1-texte">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non <br>
+                    ea mollitia corporis id, distinctio sunt veritatis officiis dolore <br>
+                    reprehenderit deleniti voluptatibus harum magna, <br>
+                    doloremque alias quisquam minus, eaque. Feugiat quod, <br>
+                    nesciunt! Iste quos ipsam, iusto sit esse. <br>
+                    <br>
+                    Dolorum aspernatur maxime libero ratione quidem distinctio, <br>
+                    placeat fugiat laborum voluptatum enim neque soluta vel <br> 
+                    sunt id ex veritatis. Labore rerum, odit sapiente, alias mollitia <br>
+                    magnam exercitationem modi amet earum quia atque ipsum <br>
+                    voluptas asperiores quas laboriosam.
+                </p>
+            </div>
         </div>
     </section>
     <section class="section2">
         <div class="section2-title">
-            <p>
+            <p id="fusce">
                 FUSCE ULTRICES FRINGILLA
             </p>
-            <p>
+            <p id="maecenas">
                 MAECENAS VITAE TELLUS FEUGIAT ELEIFEND
             </p>
         </div>
         <div class="section2-imgs">
             <div class="sec2-img1">
                 <img src="./public/assets/img/pic02.jpg" alt="pic02">
-                <p>
-                    LOREM IPSUM DOLOR SIT AMET.
-                </p>
+                <div class="div-img1">
+                    <p class="weight">
+                        LOREM IPSUM DOLOR SIT AMET.
+                    </p>
+                </div>
             </div>
             <div class="sec2-img2">
                 <img src="./public/assets/img/pic03.jpg" alt="pic03">
-                <p>
-                    ILLUM, MAIORES TEMPORA CUPID?
-                </p>
+                <div class="div-img2">
+                    <p class="weight">
+                        ILLUM, MAIORES TEMPORA CUPID?
+                    </p>
+                </div>
             </div>
         </div>
         <div class="sec2-buttons">
-            <a href="#">NULLA LUCTUS</a>
-            <a href="#">SED VULPUTATE</a>
+            <a id="red" href="#">NULLA LUCTUS</a>
+            <a id="black" href="#">SED VULPUTATE</a>
         </div>
     </section>
     <section class="section3">
         <div class="section3-title">
-            <p>
+            <p class="mauris">
                 MAURIS VULPUTATE DOLOR
             </p>
-            <p>
+            <p class="feugiat">
                 FEUGIAT SED LOREM IPSUM MAGNA
             </p>
         </div>
@@ -108,7 +122,7 @@
                         <p>
                             LOREM IPSUM DOLOR SIT
                         </p>
-                        <p>
+                        <p class="p-imgs-left">
                             Lorem ipsum dolor sit amet, consectetur adipisicing <br>
                             elt. Labore esse tenetur accusantium porro omnis, <br>
                             unde mollitia totam sit nesciunt consectetur.
@@ -126,7 +140,7 @@
                         <p>
                             POSSIMUS EX REPREHENDERIT EAQUE
                         </p>
-                        <p>
+                        <p class="p-imgs-left">
                             Maiores iusto iventore fugit architecto est iste <br>
                             expedita commodi sed, quasi feugiat nam neque <br>
                             mollitia vitae omnis, ea natus facere.
@@ -151,7 +165,8 @@
                         </p>
                         <p>
                             Animi mollitia optio culpa expeditia. Dolorem alias <br>
-                            minima culpa repellat. Dolores, fuga maiores ut obcaecati blanditiis, at aperiam doloremque.
+                            minima culpa repellat. Dolores, fuga maiores ut <br> 
+                            obcaecati blanditiis, at aperiam doloremque.
                         </p>
                     </div>
                 </div>
@@ -159,7 +174,7 @@
                     <div class="img-right2-img">
                         <img src="./public/assets/img/pic07.jpg" alt="pic07">
                     </div>
-                    <div>
+                    <div class="img-right2-p">
                         <p>
                             PORRO ALIQUAM
                         </p>
