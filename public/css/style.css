@@ -32,6 +32,7 @@ nav {
   justify-content: space-around;
   gap: 700px;
   margin-top: 15px;
+  flex-wrap: wrap;
 }
 
 .nav-div1 a {
@@ -120,6 +121,7 @@ nav {
   gap: 0px;
   width: 75%;
   height: 65%;
+  flex-wrap: wrap;
 }
 
 .section1-title {
@@ -287,6 +289,7 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 50px;
+  flex-wrap: wrap;
 }
 
 .section3-imgs-right {
@@ -294,6 +297,7 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 50px;
+  flex-wrap: wrap;
 }
 
 .img-left1 {
@@ -302,6 +306,7 @@ nav {
   justify-content: flex-end;
   align-items: flex-start;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .img-left2 {
@@ -310,6 +315,7 @@ nav {
   justify-content: flex-end;
   align-items: flex-start;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .img-right1 {
@@ -318,6 +324,7 @@ nav {
   justify-content: flex-start;
   align-items: flex-start;
   gap: 20px;
+  flex-wrap: wrap-reverse;
 }
 
 .img-right2 {
@@ -326,6 +333,7 @@ nav {
   justify-content: flex-start;
   align-items: flex-start;
   gap: 20px;
+  flex-wrap: wrap-reverse;
 }
 
 .img-left-p {
@@ -530,6 +538,523 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  header {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .nav {
+    width: 100%;
+    height: auto;
+    gap: 30px;
+  }
+  .nav-div2 a {
+    font-size: 15px;
+  }
+  .spatial {
+    margin-bottom: 30px;
+  }
+  .section1 {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .section1-div {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .section1-title {
+    width: 100%;
+  }
+  .anotherdivtitle {
+    width: 100%;
+  }
+  #sec1-title {
+    width: 100%;
+  }
+  #sec1-p {
+    width: 100%;
+  }
+  .section1-p {
+    width: 100%;
+  }
+  .sec1-texte {
+    width: 100%;
+  }
+  #sec1-title {
+    font-size: 45px;
+  }
+  .section2 {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+  }
+  #fusce {
+    font-size: 35px;
+    margin-top: 30px;
+  }
+  .section2-imgs {
+    flex-direction: column;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  .sec2-img1 {
+    width: 75%;
+  }
+  .sec2-img2 {
+    width: 75%;
+  }
+  #pic02 {
+    width: 100%;
+  }
+  #pic03 {
+    width: 100%;
+  }
+  .sec2-buttons {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  .section3 {
+    width: 100%;
+    height: auto;
+  }
+  .section3-title {
+    margin: 0;
+  }
+  .section3-imgs {
+    flex-direction: column;
+  }
+  .img-left1 {
+    flex-direction: column;
+  }
+  .img-left2 {
+    flex-direction: column;
+  }
+  .img-right1 {
+    flex-direction: column-reverse;
+  }
+  .img-right2 {
+    flex-direction: column-reverse;
+  }
+  .section4 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+  }
+  .aenean {
+    font-size: 25px;
+  }
+  footer {
+    width: 100%;
+    height: auto;
+  }
+  .p-footer {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .p-footer2 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .p-footer3 {
+    padding-left: 0px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 425px) {
+  header {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .nav {
+    width: 100%;
+    height: auto;
+    gap: 30px;
+  }
+  .nav-div2 a {
+    font-size: 15px;
+  }
+  .spatial {
+    margin-bottom: 30px;
+  }
+  .section1 {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .section1-div {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .section1-title {
+    width: 100%;
+  }
+  .anotherdivtitle {
+    width: 100%;
+  }
+  #sec1-title {
+    width: 100%;
+  }
+  #sec1-p {
+    width: 100%;
+  }
+  .section1-p {
+    width: 100%;
+  }
+  .sec1-texte {
+    width: 100%;
+  }
+  #sec1-title {
+    font-size: 45px;
+  }
+  .section2 {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+  }
+  #fusce {
+    font-size: 35px;
+    margin-top: 30px;
+  }
+  .section2-imgs {
+    flex-direction: column;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  .sec2-img1 {
+    width: 75%;
+  }
+  .sec2-img2 {
+    width: 75%;
+  }
+  #pic02 {
+    width: 100%;
+  }
+  #pic03 {
+    width: 100%;
+  }
+  .sec2-buttons {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  .section3 {
+    width: 100%;
+    height: auto;
+  }
+  .section3-title {
+    margin: 0;
+  }
+  .section3-imgs {
+    flex-direction: column;
+  }
+  .img-left1 {
+    flex-direction: column;
+  }
+  .img-left2 {
+    flex-direction: column;
+  }
+  .img-right1 {
+    flex-direction: column-reverse;
+  }
+  .img-right2 {
+    flex-direction: column-reverse;
+  }
+  .section4 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+  }
+  .aenean {
+    font-size: 25px;
+  }
+  footer {
+    width: 100%;
+    height: auto;
+  }
+  .p-footer {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .p-footer2 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .p-footer3 {
+    padding-left: 0px;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  header {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .nav {
+    width: 100%;
+    height: auto;
+    gap: 30px;
+  }
+  .nav-div2 a {
+    font-size: 15px;
+  }
+  .spatial {
+    margin-bottom: 30px;
+  }
+  .section1 {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .section1-div {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .section1-title {
+    width: 100%;
+  }
+  .anotherdivtitle {
+    width: 100%;
+  }
+  #sec1-title {
+    width: 100%;
+  }
+  #sec1-p {
+    width: 100%;
+  }
+  .section1-p {
+    width: 100%;
+  }
+  .sec1-texte {
+    width: 100%;
+  }
+  #sec1-title {
+    font-size: 45px;
+  }
+  .section2 {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+  }
+  #fusce {
+    font-size: 35px;
+    margin-top: 30px;
+  }
+  .section2-imgs {
+    flex-direction: column;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  .sec2-img1 {
+    width: 75%;
+  }
+  .sec2-img2 {
+    width: 75%;
+  }
+  #pic02 {
+    width: 100%;
+  }
+  #pic03 {
+    width: 100%;
+  }
+  .sec2-buttons {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  .section3 {
+    width: 100%;
+    height: auto;
+  }
+  .section3-title {
+    margin: 0;
+  }
+  .section3-imgs {
+    flex-direction: column;
+  }
+  .img-left1 {
+    flex-direction: column;
+  }
+  .img-left2 {
+    flex-direction: column;
+  }
+  .img-right1 {
+    flex-direction: column-reverse;
+  }
+  .img-right2 {
+    flex-direction: column-reverse;
+  }
+  .section4 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+  }
+  .aenean {
+    font-size: 25px;
+  }
+  footer {
+    width: 100%;
+    height: auto;
+  }
+  .p-footer {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .p-footer2 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .p-footer3 {
+    padding-left: 0px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  header {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .nav {
+    width: 100%;
+    height: auto;
+    gap: 30px;
+  }
+  .nav-div2 a {
+    font-size: 15px;
+  }
+  .spatial {
+    margin-bottom: 30px;
+  }
+  .section1 {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .section1-div {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .section1-title {
+    width: 100%;
+  }
+  .anotherdivtitle {
+    width: 100%;
+  }
+  #sec1-title {
+    width: 100%;
+  }
+  #sec1-p {
+    width: 100%;
+  }
+  .section1-p {
+    width: 100%;
+  }
+  .sec1-texte {
+    width: 100%;
+  }
+  #sec1-title {
+    font-size: 45px;
+  }
+  .section2 {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+  }
+  #fusce {
+    font-size: 35px;
+    margin-top: 30px;
+  }
+  .section2-imgs {
+    flex-direction: column;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  .sec2-img1 {
+    width: 75%;
+  }
+  .sec2-img2 {
+    width: 75%;
+  }
+  #pic02 {
+    width: 100%;
+  }
+  #pic03 {
+    width: 100%;
+  }
+  .sec2-buttons {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  .section3 {
+    width: 100%;
+    height: auto;
+  }
+  .section3-title {
+    margin: 0;
+  }
+  .section3-imgs {
+    flex-direction: column;
+  }
+  .img-left1 {
+    flex-direction: column;
+  }
+  .img-left2 {
+    flex-direction: column;
+  }
+  .img-right1 {
+    flex-direction: column-reverse;
+  }
+  .img-right2 {
+    flex-direction: column-reverse;
+  }
+  .section4 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+  }
+  .aenean {
+    font-size: 25px;
+  }
+  footer {
+    width: 100%;
+    height: auto;
+  }
+  .p-footer {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .p-footer2 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .p-footer3 {
+    padding-left: 0px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
