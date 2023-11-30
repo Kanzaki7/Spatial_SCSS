@@ -1,14 +1,19 @@
 .section3 {
-    height: 700px;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 70px;
 }
 
 .section3-title {
-    border: 3px solid black;
+    margin-left: 121px;
 }
 
 .mauris {
     font-size: 40px;
     font-weight: bold;
+    color: #484848;
 }
 
 .feugiat {
@@ -18,78 +23,129 @@
 
 .section3-imgs {
     display: flex;
-    border: 3px solid purple;
+    gap: 50px;
 }
 
 .section3-imgs-left {
     width: 50%;
     display: flex;
     flex-direction: column;
+    gap: 50px;
 }
 
 .section3-imgs-right {
     width: 50%;
     display: flex;
     flex-direction: column;
+    gap: 50px;
 }
 
 .img-left1 {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    border: 2px solid salmon;
+    align-items: flex-start;
+    gap: 20px;
 }
 
 .img-left2 {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    border: 2px solid blue;
+    align-items: flex-start;
+    gap: 20px;
 }
 
 .img-right1 {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    border: 2px solid darkblue;
+    align-items: flex-start;
+    gap: 20px;
 }
 
 .img-right2 {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    border: 2px solid green;
+    align-items: flex-start;
+    gap: 20px;
 }
 
 .img-left-p {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    border: 7px solid firebrick;
 }
 
 .img-left2-p {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    border: 7px solid firebrick;
 }
 
 .img-right1-p {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    border: 7px solid firebrick;
 }
 
 .img-right2-p {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    border: 7px solid firebrick;
+}
+
+.title-imgs-left {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.title2-imgs-left {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #bdaab2;
+}
+.title-imgs-right {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.title2-imgs-right {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #bdaab2;
 }
 
 .p-imgs-left {
-    border: 2px solid greenyellow;
     text-align: end;
+    line-height: 1.7;
+    color: #837d77;
+}
+
+.p-img-right {
+    line-height: 1.7;
+    color:  #837d77;
+}
+
+.div-img-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+.div-img-titlebis {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: end;
+    gap: 8px;
+}
+
+.pic {
+    border: 7px solid #e3e3e3;
+    border-radius: 50%;
 }
